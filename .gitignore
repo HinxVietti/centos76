@@ -1,0 +1,10 @@
+.idea
+
+# ignore python dev
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ignore virtual environment
+venv/
+
