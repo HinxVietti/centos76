@@ -23,6 +23,7 @@ sudo make altinstall
 
 # echo build results
 clear
+sudo ln -s /usr/local/bin/python3.9 /usr/local/bin/python
 echo "Python 3.9 build complete."
 # verify installation
-python3.9 --version
+python --version
