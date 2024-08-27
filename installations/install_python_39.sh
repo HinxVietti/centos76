@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get update -y
+sudo yum update -y
 
 # ensure build tools and dev tools installed
 sudo yum groupinstall "Development Tools" -y
@@ -8,7 +8,7 @@ sudo yum install wget openssl-devel bzip2-devel libffi-devel -y
 
 # ensure wget is installed
 if [ ! -x "$(command -v wget)" ]; then
-    sudo apt-get install -y wget
+    sudo yum install -y wget
 fi
 
 # download and install Python 3.9 tarball
